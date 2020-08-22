@@ -28,13 +28,13 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_28 = function() {
-	this.initialize(img.CachedBmp_28);
+(lib.CachedBmp_29 = function() {
+	this.initialize(img.CachedBmp_29);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,2559,1445);
 
 
-(lib.CachedBmp_29 = function() {
+(lib.CachedBmp_28 = function() {
 	this.initialize(ss["pingo_atlas_3"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
@@ -202,7 +202,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib.CachedBmp_28();
+	this.instance = new lib.CachedBmp_29();
 	this.instance.setTransform(3.85,1.3,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -643,7 +643,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib.CachedBmp_29();
+	this.instance = new lib.CachedBmp_28();
 	this.instance.setTransform(-399.9,-260.65,0.5,0.5);
 
 	this.instance_1 = new lib.donut1();
@@ -1369,10 +1369,10 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/CachedBmp_28.png?1598131873024", id:"CachedBmp_28"},
-		{src:"images/pingo_atlas_1.png?1598131872719", id:"pingo_atlas_1"},
-		{src:"images/pingo_atlas_2.png?1598131872719", id:"pingo_atlas_2"},
-		{src:"images/pingo_atlas_3.png?1598131872721", id:"pingo_atlas_3"}
+		{src:"images/CachedBmp_29.png?1598132599968", id:"CachedBmp_29"},
+		{src:"images/pingo_atlas_1.png?1598132599629", id:"pingo_atlas_1"},
+		{src:"images/pingo_atlas_2.png?1598132599630", id:"pingo_atlas_2"},
+		{src:"images/pingo_atlas_3.png?1598132599630", id:"pingo_atlas_3"}
 	],
 	preloads: []
 };
